@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 10px;
+    
     font-family: 'Courier New', Courier, monospace;
 } 
 a{
@@ -50,7 +50,7 @@ a{
 
 
 }
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Three image containers  */
 .column {
     float: left;
     width: 33.33%;
@@ -71,13 +71,106 @@ a{
     flex: 33.33%;
     padding: 5px;
   }
+  /*about section*/
+  .about{
+    color: #000000;
+    text-align: center;
+}
+  .about span{
+    position: absolute;
+    left:0;
+    height:5px;
+    border: #716b94;
+    width:8%;
+    bottom:88%;
+    border-radius: 3px;
+    background: #716b94;
+    margin-left: 46%;
+}
+.tab{
+   display: flex;
+   justify-content: center;
+    position: relative;
+}
+.tab ul{
+    padding: 14px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.tab ul li {
+    border:2px solid #716b94;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 20px;
+    margin: 10px;
+    width: 180px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.tab i{
+    font-size: 30px;
+}
+
+.img-container div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background: url(images/background_image.png);
+    opacity: 0;
+    transition:all 0.7s ease ;
+    border-radius: 14px;
+}
+.img-container:hover div{
+    opacity: 1;
+}
+  .description{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-right:50px;
+
+}
+.description img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.description p{
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+}
+.description-container{
+    display:flex;
+    align-items: center;
+    width:90%;
+    margin:0 auto;
+
+}
+.description h1{
+    font-size: 20px ;
+    margin: 15px 0px;
+}
+
+
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
     cursor: pointer;
 }
+
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+    color: #4c12ed;
 }
 .fab {
     color: #000000;
