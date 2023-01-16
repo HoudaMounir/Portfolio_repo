@@ -122,22 +122,22 @@ html , body{
 }
 /* ----underline----- */
 
-/*.title span{
+.title span{
     border-width: 20px 0 0 px;
     border-radius: 5px;
     background-color: #716b94;
     position: absolute;
-    width: 80px;
+    width: 100px;
     height: 5px;
     margin-bottom: -25px;
-}*/
-.border{
+}
+/*.border{
     width: 160px;
     border-radius: 5px;
     height: 5px;
     background: #716b94;
     margin: 0.5px auto;
-}
+}*/
 /* Three image containers  */
 .row {
     display: flex;
