@@ -2,127 +2,147 @@
     padding: 0;
     margin: 0;
 }
-html , body{
+
+html,
+body {
     font-family: 'Courier New', Courier, monospace;
     height: 600px;
     background-image: url(./images/background_image.png);
-} 
-.myNavbar{
+}
+
+.myNavbar {
     display: flex;
     justify-content: flex-end;
     position: absolute;
     width: 100%;
 
 }
-.myNavbar ul{
-    display: flex;   
+
+.myNavbar ul {
+    display: flex;
     padding: 16px;
 }
-.myNavbar ul li  {
+
+.myNavbar ul li {
     padding: 16px;
     list-style: none;
 }
+
 .myNavbar ul li a {
     text-decoration: none;
     font-weight: 1000;
 }
 
-.myNavbar a{
+.myNavbar a {
     position: relative;
 }
-.myNavbar a ::before{
+
+.myNavbar a ::before {
     content: "";
     left: 0;
     height: 2px;
-    width:0;
-    background-color:#ae1423 ;
+    width: 0;
+    background-color: #ae1423;
     position: absolute;
     bottom: -4px;
 }
+
 .myNavbar a :hover {
     color: rgb(126, 0, 0);
-    width:100%;
+    width: 100%;
 }
+
 .myNavbar a :hover::before {
-    width:100%;
+    width: 100%;
 }
+
 /* Hero section*/
-#hero{
+#hero {
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 600px;
 }
-.herocontainer{
+
+.herocontainer {
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 /*End hero section*/
-#hero h1{
+#hero h1 {
     display: block;
     font-size: 3rem;
     color: #1a202c;
-    
+
 }
-#hero h1 span{
+
+#hero h1 span {
     color: #716b94;
-}*
- .cta{
+}
+
+* .cta {
     display: inline-block;
     padding: 10px 30px;
-    color:#716b94;
+    color: #716b94;
     border: 2px solid #716b94;
     font-size: 1rem;
     text-transform: capitalize;
     margin-top: 30px;
-    transition:all .4s ease;
-} 
-.cta i{
     transition: all .4s ease;
-}  
-.cta:hover{
+}
+
+.cta i {
+    transition: all .4s ease;
+}
+
+.cta:hover {
     color: white;
     background-color: #716b94;
 
 }
-.cta:hover i{
-    transform: rotate(90deg);   
+
+.cta:hover i {
+    transform: rotate(90deg);
 }
 
-  .plus li a{
-        border-radius: 5px;
-  }
-   .plus ul {
+.plus li a {
+    border-radius: 5px;
+}
+
+.plus ul {
     width: 50%;
-    justify-content:space-around;
-   }
-  .plus {
-    display:flex;
-    flex-direction: column  ;
+    justify-content: space-around;
+}
+
+.plus {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
 }
-.title{
+
+.title {
     color: #14044d;
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
     width: 100%;
-    height:100px;
+    height: 100px;
     top: 50px;
 }
+
 /* ----underline----- */
 
-.title span{
+.title span {
     border-width: 20px 0 0 px;
     border-radius: 5px;
     background-color: #716b94;
@@ -131,6 +151,7 @@ html , body{
     height: 5px;
     margin-bottom: -25px;
 }
+
 /*.border{
     width: 160px;
     border-radius: 5px;
@@ -143,7 +164,8 @@ html , body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
+}
+
 .column img {
     position: relative;
     float: left;
@@ -152,43 +174,47 @@ html , body{
     padding: 5px;
     border-radius: 20px;
     top: 119px;
-  }
+}
 
-  /*about section*/
-  .about{
+/*about section*/
+.about {
     color: #000000;
     text-align: center;
 }
-  .about span{
+
+.about span {
     position: absolute;
-    left:0;
-    height:5px;
+    left: 0;
+    height: 5px;
     border: #716b94;
-    width:8%;
-    bottom:88%;
+    width: 8%;
+    bottom: 88%;
     border-radius: 3px;
     background: #716b94;
     margin-left: 46%;
 }
-.tab{
-   display: flex;
-   justify-content: center;
+
+.tab {
+    display: flex;
+    justify-content: center;
     position: relative;
 }
-.tab ul{
+
+.tab ul {
     padding: 14px;
     display: flex;
     justify-content: space-around;
     width: 100%;
 
 }
+
 .tab ul li {
-    border:2px solid #716b94;
+    border: 2px solid #716b94;
     list-style: none;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     margin: 10px;
     width: 180px;
@@ -196,55 +222,62 @@ html , body{
     border-radius: 5px;
 }
 
-.tab i{
+.tab i {
     font-size: 30px;
 }
 
-.img-container div{
-    display:flex;
+.img-container div {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
     align-items: center;
     background: url(images/background_image.png);
     opacity: 0;
-    transition:all 0.7s ease ;
+    transition: all 0.7s ease;
     border-radius: 14px;
 }
-.img-container:hover div{
+
+.img-container:hover div {
     opacity: 1;
 }
-  .description{
+
+.description {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right:50px;
+    margin-right: 50px;
 
 }
-.description img{
+
+.description img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
 }
-.description p{
+
+.description p {
     text-align: center;
     width: 250px;
     font-size: 15px;
 }
-.description-container{
-    display:flex;
+
+.description-container {
+    display: flex;
     align-items: center;
-    width:90%;
-    margin:0 auto;
+    width: 90%;
+    margin: 0 auto;
     position: relative;
 }
-.description h1{
-    font-size: 20px ;
+
+.description h1 {
+    font-size: 20px;
     margin: 15px 0px;
 }
-.containerr{
-    position:relative;
+
+.containerr {
+    position: relative;
     border-width: 10px;
     background: #c6c5d4;
     border-radius: 10px;
@@ -255,30 +288,31 @@ html , body{
     top: 20px;
     margin: 10px;
 }
-.wide{
+
+.wide {
     color: white;
-    position:absolute;
+    position: absolute;
     border-width: 10px;
     background: #716b94;
     border-radius: 10px;
     height: 30px;
-    width:var(--perc);
+    width: var(--perc);
     display: flex;
     justify-content: flex-start;
 }
-#prc{
+
+#prc {
     position: relative;
     left: 470px;
     top: -15px;
 }
+
 /* social media icons styling */
 
 /* footer styling */
 #footer {
-   display: flex;
-   justify-content: center;
-   margin: 16px;
-   color: #808080;
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    color: #808080;
 }
-
-
