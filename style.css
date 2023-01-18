@@ -5,7 +5,7 @@
 html , body{
     font-family: 'Courier New', Courier, monospace;
     height: 600px;
-  background-image: url(./images/background_image.png);
+    background-image: url(./images/background_image.png);
 } 
 .myNavbar{
     display: flex;
@@ -256,12 +256,13 @@ html , body{
     margin: 10px;
 }
 .wide{
+    color: white;
     position:absolute;
     border-width: 10px;
     background: #716b94;
     border-radius: 10px;
     height: 30px;
-    width: 400px;
+    width:var(--perc);
     display: flex;
     justify-content: flex-start;
 }
