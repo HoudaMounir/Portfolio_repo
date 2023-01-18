@@ -98,15 +98,15 @@ html , body{
         border-radius: 5px;
   }
    .plus ul {
-    width: 80%;
-    justify-content:space-between;
+    width: 50%;
+    justify-content:space-around;
    }
   .plus {
     display:flex;
     flex-direction: column  ;
     align-items: center;
     text-align: center;
-    left: 22px;
+    
 }
 .title{
     color: #14044d;
