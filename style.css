@@ -326,7 +326,7 @@ a{
 .description-container {
     display: flex;
     align-items: center;
-    width: 90%;
+    justify-content: center;
     margin: 0 auto;
     position: relative;
 }
@@ -401,4 +401,12 @@ input {
     border-radius: 3px;
     margin: .3rem 0;
     width: 16rem;
+}
+
+.icon{
+    color : white;
+    background-color: var(--secondary);
+    padding: 10px 12px;
+    margin-inline: 1rem;
+    border-radius: 4px;
 }
