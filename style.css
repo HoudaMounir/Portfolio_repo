@@ -92,12 +92,15 @@ body {
     text-align: center;
 }
 
+.herocontainer a {
+    cursor: pointer;
+}
+
 /*End hero section*/
 #hero h1 {
     display: block;
     font-size: 3rem;
     color: #1a202c;
-
 }
 
 #hero h1 span {
