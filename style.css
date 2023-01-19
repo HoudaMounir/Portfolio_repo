@@ -161,23 +161,15 @@ body {
 
 /* ----underline----- */
 
-.title span {
-    border-width: 20px 0 0 px;
+.title h1::after {
+    content: '';
     border-radius: 5px;
     background-color: #716b94;
-    position: absolute;
-    width: 100px;
+    width: 100%;
     height: 5px;
-    margin-bottom: -25px;
+    display: block;
 }
 
-/*.border{
-    width: 160px;
-    border-radius: 5px;
-    height: 5px;
-    background: #716b94;
-    margin: 0.5px auto;
-}*/
 /* Three image containers  */
 .row {
     display: flex;
