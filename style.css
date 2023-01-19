@@ -18,7 +18,6 @@ body {
     justify-content: flex-end;
     position: absolute;
     width: 100%;
-
 }
 
 .myNavbar ul {
@@ -40,7 +39,7 @@ body {
     position: relative;
 }
 
-.myNavbar a ::before {
+.myNavbar a::before {
     content: "";
     left: 0; 
     height: 2px;
@@ -50,12 +49,12 @@ body {
     bottom: -4px;
 }
 
-.myNavbar a :hover {
+.myNavbar a:hover {
     color: rgb(126, 0, 0);
     width: 100%;   
 }
 
-.myNavbar a :hover::before {
+.myNavbar a:hover::before {
     width: 100%;
 }
 
