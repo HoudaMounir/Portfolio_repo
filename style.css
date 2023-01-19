@@ -375,3 +375,30 @@ a{
     margin: 16px;
     color: #808080;
 }
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+    font-size: 1.2rem;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.contact-details{
+    margin: 2rem 0;
+    text-align: center;
+}
+
+form {
+    margin: 1rem 0;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid var(--secondary);
+    border-radius: 3px;
+    margin: .3rem 0;
+    width: 16rem;
+}
