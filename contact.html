@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
-    <title>Portfolio Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+  <title>Portfolio Website</title>
 </head>
+
 <body>
-    <!-- Navbar  -->
-<div class="myNavbar">
-    <ul>
-     <li><a href="work.html" >WORK</a></li> 
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-  </div>
-  <div class="title" >
-    <h1>Contact Me</h1>
-    <div class="border"></div>
-    <span></span>
-</div>
+  <!-- Navbar  -->
+  <div class="myNavbar">
+      <ul>
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a class="active" href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
+  <div class="empty-space"></div>
 
-    <div class="section">
-      <p><i class="fas fa-map-marker fa-fw text-white xxlarge margin-right"></i> Fez, MOROCCO</p>
-      <p><i class="fas fa-phone fa-fw text-white xxlarge margin-right"></i> Phone: +212 645878785</p>
-      <p><i class="fas fa-envelope fa-fw text-white xxlarge margin-right"> </i> Email: mail@mail.com</p>
-    </div><br>
-    <p>Let's get in touch. Send me a message:</p>
+  <div class="container">
+    <div class="title">
+      <h1>Contact Me</h1>
+    </div>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="input padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="input padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="input padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="input padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="button light-grey padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
+    <div class="contact-section">
+      <div class="contact-details">
+        <p><i class="fas fa-map-marker fa-fw text-white xxlarge margin-right"></i> Fez, MOROCCO</p>
+        <p><i class="fas fa-phone fa-fw text-white xxlarge margin-right"></i> Phone: +212 645878785</p>
+        <p><i class="fas fa-envelope fa-fw text-white xxlarge margin-right"> </i> Email: mail@mail.com</p>
+      </div>
+
+    
+      <p>Let's get in touch. Send me a message:</p>
+      <form target="_blank">
+        <p><input type="text" placeholder="Name" required name="Name"></p>
+        <p><input type="text" placeholder="Email" required name="Email"></p>
+        <p><input type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input type="text" placeholder="Message" required name="Message"></p>
+   
+          <button class="cta" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+      </form>
+      
+    </div>
   </div>
 
 </body>
+
 </html>
