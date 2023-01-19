@@ -1,3 +1,6 @@
+/* working with sans serif font : Open Sans 👌 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +8,7 @@
 
 html,
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans','Courier New', Courier, monospace;
     height: 600px;
     background-image: url(./images/background_image.png);
 }
@@ -39,17 +42,17 @@ body {
 
 .myNavbar a ::before {
     content: "";
-    left: 0;
+    left: 0; 
     height: 2px;
     width: 0;
     background-color: #ae1423;
-    position: absolute;
+    position: absolute; 
     bottom: -4px;
 }
 
 .myNavbar a :hover {
     color: rgb(126, 0, 0);
-    width: 100%;
+    width: 100%;   
 }
 
 .myNavbar a :hover::before {
@@ -232,7 +235,7 @@ body {
     justify-content: center;
     height: 100%;
     align-items: center;
-    background: url(images/background_image.png);
+    background: url('images/background_image.png');
     opacity: 0;
     transition: all 0.7s ease;
     border-radius: 14px;
