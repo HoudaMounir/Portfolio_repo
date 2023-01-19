@@ -64,6 +64,7 @@ body {
     border-radius: 2px;
     width: 0px;
     background-color: var(--secondary);
+    transition: width .2s ease-in-out;
 }   
 
 .myNavbar .active::after{
