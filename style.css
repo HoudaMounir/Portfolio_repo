@@ -10,13 +10,15 @@ html,
 body {
     font-family: 'Open Sans','Courier New', Courier, monospace;
     height: 600px;
-    background-image: url(./images/background_image.png);
+    background-image: url("./images/background_image.png");
 }
 
 .myNavbar {
     display: flex;
     justify-content: flex-end;
-    position: absolute;
+    position: fixed;
+    z-index: 200;
+    background-color: white;
     width: 100%;
 }
 
@@ -32,7 +34,7 @@ body {
 
 .myNavbar ul li a {
     text-decoration: none;
-    font-weight: 1000;
+    font-weight: 800;
 }
 
 .myNavbar a {
