@@ -302,20 +302,19 @@ body {
     width: 500px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     top: 20px;
     margin: 10px;
 }
 
 .wide {
     color: white;
-    position: absolute;
     border-width: 10px;
     background: #716b94;
     border-radius: 10px;
-    height: 30px;
     width: var(--perc);
-    display: flex;
-    justify-content: flex-start;
+    padding: .2rem;
+    padding-left: 1rem;
 }
 
 #prc {
