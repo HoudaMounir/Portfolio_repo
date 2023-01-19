@@ -114,17 +114,22 @@ body {
     transform: rotate(90deg);
 }
 
-.plus li a {
+.Work-menu li a {
     border-radius: 5px;
+    text-decoration: none;
 }
 
-.plus ul {
+.Work-menu ul {
     width: 50%;
     justify-content: space-around;
+    list-style: none;
+    display: flex;
 }
 
-.plus {
+.Work-menu {
     display: flex;
+    justify-content: center;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     text-align: center;
